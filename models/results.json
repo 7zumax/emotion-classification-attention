@@ -1,0 +1,67 @@
+{
+  "best_model": "DistilBERT",
+  "emotions": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise"
+  ],
+  "max_len": 40,
+  "smoke": false,
+  "results": {
+    "DistilBERT": {
+      "accuracy": 0.8011,
+      "precision_macro": 0.673,
+      "recall_macro": 0.7384,
+      "f1_macro": 0.7016,
+      "train_time_min": 1.8783,
+      "f1_anger": 0.6912,
+      "f1_disgust": 0.5111,
+      "f1_fear": 0.7158,
+      "f1_joy": 0.8995,
+      "f1_sadness": 0.6529,
+      "f1_surprise": 0.739
+    },
+    "BiLSTM+Attention": {
+      "accuracy": 0.7313,
+      "precision_macro": 0.5995,
+      "recall_macro": 0.705,
+      "f1_macro": 0.6397,
+      "train_time_min": 0.5371,
+      "f1_anger": 0.6226,
+      "f1_disgust": 0.5385,
+      "f1_fear": 0.6283,
+      "f1_joy": 0.8522,
+      "f1_sadness": 0.5879,
+      "f1_surprise": 0.6087
+    },
+    "LSTM": {
+      "accuracy": 0.718,
+      "precision_macro": 0.5946,
+      "recall_macro": 0.6884,
+      "f1_macro": 0.6313,
+      "train_time_min": 0.2741,
+      "f1_anger": 0.5938,
+      "f1_disgust": 0.5049,
+      "f1_fear": 0.6533,
+      "f1_joy": 0.8385,
+      "f1_sadness": 0.6122,
+      "f1_surprise": 0.5853
+    },
+    "GRU": {
+      "accuracy": 0.7098,
+      "precision_macro": 0.5914,
+      "recall_macro": 0.7023,
+      "f1_macro": 0.63,
+      "train_time_min": 0.1991,
+      "f1_anger": 0.5997,
+      "f1_disgust": 0.5143,
+      "f1_fear": 0.6415,
+      "f1_joy": 0.8297,
+      "f1_sadness": 0.6097,
+      "f1_surprise": 0.5854
+    }
+  }
+}
