@@ -9,7 +9,6 @@
     "surprise"
   ],
   "max_len": 40,
-  "smoke": false,
   "results": {
     "DistilBERT": {
       "accuracy": 0.8011,
